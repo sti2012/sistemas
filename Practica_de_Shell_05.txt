@@ -1,0 +1,7 @@
+Escribe un programa de Shell llamado 'nomanual.sh' que busque cuales
+de los ficheros de /bin no tienen instalada una página de manual en 
+el sistema. 
+
+Las páginas de manual se encuentran en el fichero 
+/usr/share/man/man1/nombre.1.gz, donde nombre es el nombre de la 
+página de manual que debe coincidir con el nombre del comando. 

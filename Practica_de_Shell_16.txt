@@ -1,0 +1,3 @@
+Implementa un programa "mycut.sh" que funcione como cut(1):
+
+mycut.sh [-d Delim] [-f fieldno,fieldno...] filename

@@ -1,0 +1,5 @@
+Escribe un programa de Shell llamado 'equal.sh' que busque todos los
+ficheros del /bin que sean iguales en contenido. Para ello puedes 
+usar los comandos cmp o diff, que te indican si existen diferencias
+o no entre dos archivos y cuáles son dichas diferencias
+respectivamente.

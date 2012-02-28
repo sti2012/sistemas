@@ -1,0 +1,6 @@
+Escribe un programa de Shell llamado 'mystack.sh' que ejecute 
+el programa "stack" con el primer argumento pasado a 'mystack.sh'
+y muestre el nombre del fichero y el número de línea en la que el
+programa ha podido fallar. El programa "stack" es un programa que 
+proporcionamos que muestra información sobre los fallos de ejecución
+de un programa.  

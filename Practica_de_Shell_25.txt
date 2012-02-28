@@ -1,0 +1,5 @@
+Escribe un script que busque todas las páginas de manual referenciadas
+en un conjunto de ficheros.
+
+Las páginas de manual se referencian escribiendo la sección entre
+paréntesis, por ejemplo read(2).

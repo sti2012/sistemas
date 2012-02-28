@@ -1,0 +1,4 @@
+Escribe un programa de Shell llamado 'builtins.sh' que muestre cuáles
+de los ficheros del directorio /bin son además builtins de la shell
+que estés usando. Puedes usar el comando 'type' para preguntar 
+a la shell si un determinado comando es un builtin o no. 

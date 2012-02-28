@@ -1,0 +1,4 @@
+Implementa un programa "mypaste.sh" que funcione como paste(1)
+sin parámetros
+
+mypaste.sh fich1 fich2 fich3

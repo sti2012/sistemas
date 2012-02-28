@@ -1,0 +1,7 @@
+Escríbete un script que busque una palabra que recibirá como parámetro
+en la rae, http://rae.es/, se baje la definición y la imprima en texto.
+
+Pista: si se realiza una búsqueda la palabra se codifica en la
+dirección y se puede traer uno la página con wget(1).
+Hay programas que traducen html a texto.
+

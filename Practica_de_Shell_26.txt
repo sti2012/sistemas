@@ -1,0 +1,8 @@
+Escribe un script que imprima los includes bien formateados
+(sin espacios innecesarios) necesarios para llamar a una función
+o llamada al sistema, mirando en la página de manual.
+
+Ej:
+
+$ genera_includes read
+#include <unistd.h>

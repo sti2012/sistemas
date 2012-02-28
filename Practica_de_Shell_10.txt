@@ -1,0 +1,10 @@
+Escribe un programa en Shell llamado 'fotos.sh' que baje todas las 	
+fotos de cuadros de Adolphe William Bouguereau colgadas en [1], las 
+almacene en un directorio determinado (/tmp/cuadros), las convierta 
+al formato png y las cambie de resolución a 100x100 píxeles. 
+
+[1] http://www.tamsquare.com/artist/Adolphe-William-Bouguereau/
+
+Para descargar una URL desde línea de comando puedes usar el comando
+wget. Para cambiar el tamaño de una imagen puedes emplear el comando
+convert. 

@@ -1,0 +1,4 @@
+Escribe un programa de Shell llamado 'startstop.sh' que ejecute
+un programa que reciba como primer argumento y lo mate a los 20
+segundos. Puedes usar la variable de shell $! para averiguar 
+el identificador de proceso del último programa ejecutado. 

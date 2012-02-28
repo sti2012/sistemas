@@ -1,0 +1,3 @@
+Escríbete un script que se guarde las fechas de modificación de los
+ficheros de tu cuenta y te avise de qué ficheros han cambiado desde
+la última vez que se ejecutó.

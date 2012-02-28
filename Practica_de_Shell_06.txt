@@ -1,0 +1,34 @@
+Escribe un programa en shell llamado 'myseq.sh' que se comporte
+de la misma manera que 'seq' pero sin las opciones (esto es 
+"seq last", "seq first last" y "seq first increment last"). Para
+ello podrás usar el comando 'bc', que funciona como una 
+calculadora. 
+
+Ejemplos:
+  $ seq 3
+  1
+  2
+  3
+  $ seq 2 5
+  2
+  3
+  4
+  5
+  $ seq 3 4 12
+  3
+  7
+  11
+  $ 
+
+Uso de bc:
+$ bc
+bc 1.06
+Copyright 1991-1994, 1997, 1998, 2000 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+1 + 2
+3
+Control-D
+
+$ echo 1 + 2 | bc 
+3

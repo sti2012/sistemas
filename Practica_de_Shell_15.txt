@@ -1,0 +1,25 @@
+Escriba un script llamado "backup.sh" que, dado un directorio, cree un
+tar comprimido (.tgz) usando tar(1) con un nombre que codifique el
+nombre del directorio, la fecha de creación y un número automático que
+desambigüe en el nombre.
+
+Escriba un script llamado "yesterday.sh" que, dado un número de días
+imprima el comando necesario para recuperar el backup de ese día.
+Ejemplo:
+
+$ backup.sh fich
+
+generará un fichero fich_232113_1.tgz
+
+$ backup.sh fich
+
+generará el fichero fich_232113_2.tgz
+
+Dos días después:
+
+yesterday.sh -n 2
+imprimirá dos líneas indicando cómo descomprimir en el sitio adecuado
+fich_232113_1.tgz
+y
+fich_232113_2.tgz
+

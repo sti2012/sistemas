@@ -1,0 +1,9 @@
+Escribe un programa de Shell llamado 'symbols.sh' que reciba como 
+argumento el nombre de un símbolo y que indique cuál de los 
+ficheros con extensión .o del directorio actual lo exportan y cuál
+o cuáles lo usan. El script debe mostrar por la pantalla líneas como 
+ésta: 
+  fichero_que_lo_exporta -> fichero_que_lo_usa
+
+Nota: Para consultar los símbolos de un fichero objeto puede ayudarse
+del comando "nm -g". 

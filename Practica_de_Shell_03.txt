@@ -1,0 +1,12 @@
+Escribe un programa de Shell llamado 'locatetest.sh' que busque el 
+comando "test" en todos los directorios contenidos en la variable
+de entorno $PATH. 
+
+La variable de entorno $PATH indica todos los directorios dónde la 
+shell buscará los ejecutables. Su formato consiste en una serie de
+directorios separados por el carácter :. 
+
+Ejemplo: 
+ $ echo $PATH
+ /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ 

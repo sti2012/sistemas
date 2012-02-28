@@ -1,0 +1,8 @@
+Escribe un programa de shell llamado "conectividad.sh" que compruebe
+la conectividad con un grupo de máquinas de una lista de direcciones
+en un fichero $HOME/listademaq dado usando ping(1). Ping devuelve el
+tiempo que tarda un paquete en ir y volver (round-trip).
+
+Si cualquiera de las máquinas tiene un round-trip de más de 100ms,
+añadir su nombre a un fichero $HOME/problemas, junto con el tiempo
+que ha tardado (si es posible).

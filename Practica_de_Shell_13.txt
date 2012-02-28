@@ -1,0 +1,31 @@
+Escribe un programa de Shell llamado 'enunciados.sh' que cree una 
+página web con todos los enunciados de las prácticas que te hemos
+entregado. Cada práctica debe incluirse de la siguiente forma
+
+  <h1><a name="#n">NN Practica de TIPO</a></h1>
+  <pre>
+  TEXTO
+  </pre>
+  <br/>
+
+dónde n es un identificador único, NN es el número de la práctica,
+TIPO indica si es una práctica de Shell o de C y TEXTO es el 
+contenido de cada enunciado. 
+
+Al principio de la web debe añadirse las cabeceras HTML necesarias y
+una tabla de contenidos con el siguiente formato:
+  <ul>
+  <li><a href="#n">NN Practica de TIPO</a></li>
+  ...
+  </ul>
+
+donde n, NN y TIPO tienen los mismos significados que antes. 
+
+Recuerde que las cabeceras HTML son las siguientes
+
+  <html>
+  <head><title>Practicas de SSOO</title></head>
+  <body>
+  ...
+  </body>
+  </html>

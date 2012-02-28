@@ -1,0 +1,7 @@
+Mide el tiempo que tarda en ejecutar el script de la práctica 1
+dependiendo de si escribe por pantalla, en un fichero o en el
+fichero /dev/null, si ejecuta por primera vez o por segunda vez.
+Usa time(1).
+
+Créate una gráfica con gnuplot similar a la de la práctica anterior
+con cada uno de estos tiempos.

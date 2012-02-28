@@ -1,0 +1,29 @@
+Escribir un programa que dada una lista de alumnos con notas en el
+siguiente formato:
+
+Nombre Apellido(s)\tnota1\tnota2\tnota3
+
+donde los \t representan tabuladores,
+genere un fichero igual al anterior pero con dos campos más
+tambien separados por tabuladores que sea la nota media aritmética
+y la nota alfabética.
+
+Las notas numéricas están entre 0 y 10 con dos decimales
+y la nota alfabética tiene la siguiente correspondencia:
+
+[0-3) Muy deficiente que se representa con -> MD
+[3-5) Deficiente -> D
+[5-6) Suficiente -> S
+[6-7.5) Bien -> B
+[7.5-9) Notable -> N 
+[9-10] Sobresaliente -> S
+
+Ejemplo:
+
+Juan Pérez	4	5 	6.1
+Pedro López	9	7.0	2.3
+
+Genera:
+
+Juan Pérez	4	5 	6.1	5.03	S
+Pedro López	9	7.0	2.3	6.10	B

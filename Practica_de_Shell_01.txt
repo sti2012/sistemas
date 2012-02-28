@@ -1,0 +1,3 @@
+Escribe un programa de Shell llamado 'buscaxr.sh' que muestra todos
+los ficheros de tu cuenta ($HOME) que comiencen por r o por x y 
+que no contengan el carácter ~ en su nombre.

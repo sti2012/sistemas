@@ -1,0 +1,4 @@
+Escribir un script "myps.sh" de shell que utilize el sistema de ficheros
+en /proc, ver proc(5) para imprimir lo mismo que imprimiría el comando
+
+ps -ef

@@ -1,0 +1,5 @@
+Escribir un script que verifique cada 30 segundos si un usuario
+ha hecho login en la máquina y, si es así, que imprima la dirección
+desde la que ha hecho login por pantalla.
+
+Pista: who(1)

@@ -1,0 +1,15 @@
+Escribe en un fichero los tamaños de todos los ficheros de tu cuenta
+promediados en intervalos:
+
+Valor medio de los ficheros entre 0 y 10 bytes
+entre 10 y 100
+entre 100 y 1000
+
+Luego genera una gráfica con un diagrama de barras en postscript
+con un aspecto similar a éste (pero con el título y demás bien puesto): 
+http://www.mar.dfo-mpo.gc.ca/science/acon/Examples/HistogramExample.gif
+usando gnuplot(1).
+
+Modifica ahora el script para que reciba el directorio debajo del cual
+calcurá los tamaños y que lo ponga en el título. Genera una gráfica
+para cada directorio de tu cuenta.
